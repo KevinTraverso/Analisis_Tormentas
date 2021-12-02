@@ -1,5 +1,5 @@
 #*
-#* AJUSTE DE DISTRIBUCION DE FRECUENCIAS
+#*
 #* @autor: Kevin Traverso
 #* 
 
@@ -65,7 +65,7 @@ AjusteDistSelect <- function(TipoSerie,Data_max,Inicio,Fin){
 
 ###### prueba AjusteDistSelect ######
 
-Datos <- fromJSON("./Data/SerieDiariaRamis4Esta.json")
+Datos <- fromJSON("./02_Data/SerieDiariaRamis4Esta.json")
 AN1 <- AjusteDistSelect(TipoSerie = "DIARIA", Data_max = Datos,
                         Inicio = "1970-01-01", Fin = "2016-12-31")
 
